@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Rubik&display=swap");
+@import "reset.css";
+
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/opening.css";
+@import "screens/create.css";
+
+body {
+  height: 100vh;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*
+. 스타트업 본격적 시작 준비 - 린캔버스 (for 독립)
+. 허리 사이즈 줄이기
+. 자본 달러화 (엄마 유튜브)
+. 전신거울
+. server와 client 배치를 다르게 하는 방법 (코코아톡 강의에 있을 듯) >>> flex-start를 적용하니 content 사이즈대로 설정됨 차후에 확인
+*/

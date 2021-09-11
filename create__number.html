@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="구독, 결제, 정기, 해지, 연장" />
+    <meta name="description" content="세상에 없던 구독 플랫폼, 왓섭" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://whatssub.co/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>왓섭- 신개념 구독 관리</title>
+    <style></style>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>7:57</span>
+        <i class="far fa-comment-dots"></i>
+        <i class="far fa-image"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
+        <span>94%</span>
+      </div>
+    </div>
+
+    <div class="main-box">
+      <header class="number-header">
+        <section>어느 전화번호로 📨</section>
+        인증번호를 보내 드릴까요?
+      </header>
+
+      <form action="create__certification.html" method="GET">
+        <article class="create-box">
+          <section class="number-box">
+            <label for="number-box__input" class="number-box__label"
+              >전화번호</label
+            >
+            <input id="number-box__input" value="010-1234-5678" disabled />
+          </section>
+
+          <section class="license-box">
+            <label for="license-box__input" class="license-box__label"
+              >주민번호 앞 7자리</label
+            >
+            <div class="license-box__flex">
+              <input
+                id="license-box__input1"
+                placeholder="0  0  0  1  0  1"
+                disabled
+              />
+              <span>–</span>
+              <input
+                id="license-box__input2"
+                placeholder="     3  ●●●●●●"
+                disabled
+              />
+            </div>
+          </section>
+
+          <section class="name-box">
+            <label for="name-box__input" class="name-box__label">이름</label>
+            <input id="name-box__input" type="text" value="홍길동" disabled />
+          </section>
+        </article>
+
+        <input type="submit" value="다음" class="blue-button" />
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a3ecbab334.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

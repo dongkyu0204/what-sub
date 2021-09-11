@@ -1,0 +1,94 @@
+.opening-header {
+  font-family: "Do Hyeon", sans-serif;
+  margin: 68px 0 33px 0;
+  font-size: 35px;
+}
+
+.opening-header__blue {
+  color: #0068ff;
+  opacity: 0.85;
+}
+
+.opening-header section {
+  margin-bottom: 8px;
+}
+
+/* opening-header Finish */
+
+.opening-main__chats {
+  font-size: 14px;
+  font-weight: 600;
+  color: #51565b;
+  border-radius: 15px;
+  padding: 13px;
+}
+
+.opening-main__white-block {
+  border: 1.5px solid #c9cdd0;
+  margin-bottom: 20px;
+}
+
+.opening-main__gray-block {
+  background-color: #f3f4f8;
+  margin-bottom: 11px;
+}
+
+.opening-main__blue-block {
+  background-color: #e7f0ff;
+  color: #0068ff;
+  margin-top: -10px;
+}
+
+.opening-main__flex-start {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.opening-main__flex-end {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+/* opening-main Finish */
+
+.opening-footer {
+  position: absolute;
+  bottom: 95px;
+  width: 90%;
+  color: #c7cacf;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+.opening-footer a {
+  color: #c7cacf;
+  font-size: 12px;
+}
+
+.opening-footer section {
+  margin-bottom: 7px;
+}
+
+/* opening-footer Finish */
+
+.main-box {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.blue-button {
+  width: 90%;
+  position: absolute;
+  bottom: 12px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #0068ff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* commone-element Finish */

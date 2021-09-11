@@ -11,23 +11,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="https://whatssub.co/favicon.ico" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>왓섭- 신개념 구독 관리</title>
+    <style></style>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
         <span>7:57</span>
-        <!-- application icon -->
-        <!-- img icon -->
+        <i class="far fa-comment-dots"></i>
+        <i class="far fa-image"></i>
       </div>
+
       <div class="status-bar__column">
-        <!-- alarm icon -->
-        <!-- wifi icon -->
-        <!-- Network icon -->
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-signal"></i>
         <span>94%</span>
-        <!-- battery icon -->
       </div>
     </div>
+
+    <div class="main-box">
+      <header class="opening-header">
+        <section>
+          내가 <span class="opening-header__blue">어떤 서비스</span>를
+        </section>
+        <span class="opening-header__blue">언제 구독</span>했더라?
+      </header>
+
+      <main class="opening-main">
+        <section class="opening-main__flex-start">
+          <div class="opening-main__chats opening-main__white-block">
+            <span> [WEB 발신] 구독서비스가 갱신되었습니다</span>
+          </div>
+        </section>
+
+        <section class="opening-main__flex-end">
+          <div class="opening-main__chats opening-main__gray-block">
+            <span>??? 뭔데</span>
+          </div>
+
+          <div class="opening-main__chats opening-main__gray-block">
+            <span>하... 맞다...</span>
+          </div>
+        </section>
+
+        <section class="opening-main__flex-start">
+          <div class="opening-main__chats opening-main__white-block">
+            <span>이런 경험 다들 있으시죠?</span>
+          </div>
+          <div class="opening-main__chats opening-main__blue-block">
+            <span>🤗우리, 왓섭에서 편하게 알림받고 해지해요</span>
+          </div>
+        </section>
+      </main>
+
+      <footer class="opening-footer">
+        <span
+          ><section>
+            '동의 및 시작'을 누르는 것으로 <a href="#">왓섭 필수 이용약관</a> 및
+          </section>
+          <a href="#">개인정보 이용방침</a>에 동의하게 됩니다.</span
+        >
+      </footer>
+
+      <form action="create__name.html" method="GET">
+        <input type="submit" value="동의하고 시작하기" class="blue-button" />
+      </form>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/a3ecbab334.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

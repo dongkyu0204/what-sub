@@ -1,0 +1,21 @@
+.status-bar {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.status-bar span:first-child {
+  margin-right: 3px;
+}
+
+.fa-comment-dots,
+.fa-bell {
+  margin-right: 1px;
+}
+
+.fa-signal {
+  margin-right: 1px;
+  margin-left: -2px;
+}

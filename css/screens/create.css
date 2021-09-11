@@ -1,0 +1,228 @@
+.create-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f7fb;
+  border-radius: 22px;
+}
+
+.create-box input {
+  border: none;
+}
+/* commone-element in create Finish */
+
+.name-header {
+  margin: 62px 0 22px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.name-header section {
+  margin-bottom: 7px;
+}
+
+.name-box {
+  padding: 20px 15px;
+}
+
+.name-box__label {
+  color: #9399a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#name-box__input {
+  margin-top: 7px;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  background-color: #f6f7fb;
+}
+
+#name-box__input::placeholder {
+  color: #c8ccd2;
+}
+
+/* create__name Finish */
+
+.license-header {
+  margin: 62px 0 22px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.license-header section {
+  margin-bottom: 7px;
+}
+
+.license-box {
+  padding: 20px 15px;
+  border-bottom: 1px solid #c5cdd6;
+}
+
+.license-box__label {
+  color: #9399a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.license-box__flex {
+  display: flex;
+  margin-top: 10px;
+}
+
+#license-box__input1,
+#license-box__input2 {
+  background-color: #f6f7fb;
+}
+
+#license-box__input1::placeholder,
+#license-box__input2::placeholder {
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: black;
+}
+
+/* create__license Finish */
+
+.number-header {
+  margin: 62px 0 22px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.number-header section {
+  margin-bottom: 7px;
+}
+
+.number-box {
+  padding: 20px 15px;
+  border-bottom: 1px solid #c5cdd6;
+}
+
+.number-box__label {
+  color: #9399a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#number-box__input {
+  margin-top: 7px;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  background-color: #f6f7fb;
+}
+
+/* create__number Finish */
+
+.certification-back {
+  margin-top: 5px;
+}
+
+.certification-back a {
+  color: #0068ff;
+}
+
+.certification-header {
+  margin: 20px 0 30px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.certification-header section {
+  margin-bottom: 7px;
+}
+
+.certification-main span {
+  color: #9399a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.certification__form {
+  width: 100%;
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certification-btn {
+  height: 50px;
+  border: none;
+  font-size: 20px;
+}
+
+.certification__input {
+  background-color: #f0f2f7;
+  width: 67%;
+  border-radius: 17px;
+}
+
+.certification__input::placeholder {
+  position: relative;
+  left: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.certification__blue-button {
+  background-color: #0068ff;
+  border-radius: 12px;
+  color: white;
+  width: 28.5%;
+  cursor: pointer;
+}
+
+.certification-footer {
+  margin-top: 40px;
+}
+
+.certification-footer span,
+a {
+  color: #9399a0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* create__certification Finish */
+
+.carrier-header {
+  margin: 62px 0 22px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.carrier-header section {
+  margin-bottom: 7px;
+}
+
+.carrier-box {
+  padding: 20px 15px;
+  border-bottom: 1px solid #c5cdd6;
+}
+
+.carrier-box__label {
+  color: #9399a0;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#carrier-box__input {
+  margin-top: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  background-color: #f6f7fb;
+}
+
+/* create__carrier Finish */
+.check-header {
+  margin: 62px 0 22px 0;
+  font-size: 23px;
+  font-weight: 600;
+}
+.check-header section {
+  margin-bottom: 7px;
+}
